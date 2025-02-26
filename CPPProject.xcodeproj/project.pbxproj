@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A182B9212D6F7068009904DA /* BankAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182B91F2D6F7068009904DA /* BankAccount.cpp */; };
+		A182B9242D6F730C009904DA /* Phases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182B9222D6F730B009904DA /* Phases.cpp */; };
 		A1942D732D6F6CC900092D1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1942D722D6F6CC900092D1B /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A182B91E2D6F6FD6009904DA /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		A182B91F2D6F7068009904DA /* BankAccount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BankAccount.cpp; sourceTree = "<group>"; };
+		A182B9222D6F730B009904DA /* Phases.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Phases.cpp; sourceTree = "<group>"; };
+		A182B9232D6F730B009904DA /* Phases.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Phases.hpp; sourceTree = "<group>"; };
 		A1942D6F2D6F6CC900092D1B /* CPPProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1942D722D6F6CC900092D1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +63,11 @@
 		A1942D712D6F6CC900092D1B /* CPPProject */ = {
 			isa = PBXGroup;
 			children = (
+				A182B91E2D6F6FD6009904DA /* BankAccount.h */,
+				A182B91F2D6F7068009904DA /* BankAccount.cpp */,
 				A1942D722D6F6CC900092D1B /* main.cpp */,
+				A182B9222D6F730B009904DA /* Phases.cpp */,
+				A182B9232D6F730B009904DA /* Phases.hpp */,
 			);
 			path = CPPProject;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1942D732D6F6CC900092D1B /* main.cpp in Sources */,
+				A182B9242D6F730C009904DA /* Phases.cpp in Sources */,
+				A182B9212D6F7068009904DA /* BankAccount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
